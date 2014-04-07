@@ -1,0 +1,33 @@
+---
+layout: main
+title: Bream IO - About
+---
+<div id="content"><h1>About</h1>
+
+	<h2>Who we are</h2>
+	<p>
+		Bream IO is a young company driven by seven students from the Royal Institute of Technology in Stockholm, Sweden. 
+		Through dedication, competence and innovation we tailor the systems of tomorrow.
+	</p>
+<h2>Meet the Bream Team!</h2>
+	<div class="marketing">
+		<div class="row">
+
+		{% for p in site.presentations %}
+			<div class="col-lg-4">
+				<img class="img-circle" src={{ p.img }}>
+				<h3>{{ p.name }}</h3>
+				<h4> {{ p.title }}</h4>
+				{{ p.content }}
+				<p>
+					<a class="btn btn-default" href={{ p.mail}}>
+						<span class="glyphicon glyphicon-envelope"></span>Email
+					</a>
+				</p>
+			</div>
+		{% endfor %}
+
+		</div>
+	</div>
+</p>
+</div>
