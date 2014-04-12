@@ -15,7 +15,7 @@ title: Bream IO - About
 
 		{% for p in site.presentations %}
 			<div class="col-lg-4">
-				<img class="img-circle" src={{ p.img }}>
+				<img class="img-circle" src={{ site.baseurl }}{{ p.img }}>
 				<h3>{{ p.name }}</h3>
 				<h4> {{ p.title }}</h4>
 				{{ p.content }}
