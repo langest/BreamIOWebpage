@@ -12,6 +12,3 @@ categories: jekyll update
 		there should be a link above leading to one of the videos showing what we did, or you could just use <a href="http://www.youtube.com/watch?v=vKQ54Y9UG5w&t=12m30s">this one</a>.
 	</p>
 </div>
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
