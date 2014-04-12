@@ -11,7 +11,7 @@ body, h1, h3 {
 }
 
 .jumbotron {
-  background-image: url({{ site.baseurl }}/img/winter2013_3.jpg);
+  background-image: url(BreamIOWebpage/img/winter2013_3.jpg);
   background-size: cover;
   background-position: center;
 }
