@@ -2,3 +2,5 @@ name: Bream
 markdown: redcarpet
 pygments: true
 baseurl: 
+paginate: 3
+
