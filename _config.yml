@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 baseurl: 
 paginate: 3
-
+encoding: utf-8

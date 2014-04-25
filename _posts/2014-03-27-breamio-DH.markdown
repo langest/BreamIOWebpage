@@ -2,7 +2,7 @@
 layout: post
 title:  "Dreamhack 2013"
 date:   2014-03-27 20:04:39
-poster: Johan Fogelstroem
+poster: Johan Fogelström
 categories: jekyll update
 ---
 <div class="newspost">
