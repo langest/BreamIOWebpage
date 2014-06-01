@@ -1,0 +1,12 @@
+
+body, body > header, main, body > footer {
+  width: 100%;
+  height: 100%;
+}
+
+body > header {
+  position: fixed;
+  height: 1.2em;
+  line-height: 1.2em;
+}
+
