@@ -21,26 +21,28 @@
 			</nav>
 		</header>
 		<main>
-			<section>
-				<header id="signup">Bream IO</header>
-				<p>Eye tracking for games done today</p>
+			<section id="signup">
+				<header>Bream IO</header>
+				<p>Eye tracking for games</p>
 				<form itemscope="itemscope" itemtype="http://schema.org/SubscribeAction">
+					<label>
+						<span>Join our</span>
+						<span itemprop="object" itemscope="itemscope" itemtype="http://schema.org/Product">newsletter</span>
+						<span itemprop="agent" itemscope="itemscope" itemtype="http://schema.org/Person">
+							<input itemprop="email" type="email" placeholder="jane.doe@example.com" />
+						</label>
 					<button>Sign up</button>
-					<span>for our</span>
-					<span itemprop="object" itemscope="itemscope" itemtype="http://schema.org/Product">newsletter</span>
-					<span itemprop="agent" itemscope="itemscope" itemtype="http://schema.org/Person">
-						<input itemprop="email" type="email" placeholder="jane.doe@example.com" />
 					</span>
 				</form>
 				<!-- Video when done http://camendesign.com/code/video_for_everybody -->
 			</section>
-			<section>
-				<header id="mission">Mission</header>
+			<section id="mission">
+				<header>Mission</header>
 				<p>Bream IO is developing Eye tracking software. Our focus is set on the gaming industry where we believe eye tracking technology will provide a new level of immersion. This both through new ways of interacting with games and through revolutionary ways of visualizing e-sport practitioners actions. Sign up for our newsletter for updates on our progress in bringing eye tracking into gaming.</p>
 			</section>
-			<section itemscope="itemscope" itemtype="http://schema.org/EndorseAction">
+			<section id="endorsements" itemscope="itemscope" itemtype="http://schema.org/EndorseAction">
 				<header itemprop="description">
-					<span itemprop="endorsee" itemref="info">We</span>
+					<span itemprop="endorsee" itemref="footer">We</span>
 					<span>are endorsed by</span>
 				</header>
 				<ul>
@@ -49,8 +51,8 @@
 					<li itemprop="agent" itemscope="itemscope" itemtype="http://schema.org/EducationalOrganization"><a itemprop="url" id="studentinc" title="Powered by KTH Innovation &amp; Excitera" href="//www.kth.se/en/innovation/studentinc">Student Inc.</a></li>
 				</ul>
 			</section>
-			<section>
-				<header id="team">The Bream Team</header>
+			<section id="team">
+				<header>The Bream Team</header>
 				<ul>
 					<li itemscope="itemscope" itemtype="http://schema.org/Person">
 						<p>
@@ -128,7 +130,7 @@
 				</ul>
 			</section>
 		</main>
-		<footer id="info" itemscope="itemscope" itemtype="http://schema.org/Corporation">
+		<footer id="footer" itemscope="itemscope" itemtype="http://schema.org/Corporation">
 			<span itemprop="legalName">Bream IO AB</span>
 			<span itemprop="taxID">556956-4247</span>
 			<span itemprop="vatID">556956-4247</span>
