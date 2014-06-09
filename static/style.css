@@ -10,11 +10,14 @@ body > header, main, #footer {
   width: 100vw;
 }
 
+body > header, nav {
+  height: 1.2em;
+  line-height: 1.2em;
+}
+
 nav {
   position: fixed;
-  height: 1.2em;
   width: 100vw;
-  line-height: 1.2em;
   border-bottom: 1px solid #595461;
 }
 
@@ -38,16 +41,32 @@ main {
   margin: 0;
 }
 
-section {
-  padding: 1.2rem;
-  margin: 0;
+section, #footer {
+  padding: 0 1.2rem;
+  clear: both;
+}
+
+section > p, section > header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+section > header {
+  padding-top: 1.2rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
+}
+
+#mission > p, form, ul {
+  padding-bottom: 1.2rem;
 }
 
 #signup {
   min-height: 100vh;
   line-height: 1rem;
   font-size: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 #signup, #endorsements > header {
@@ -56,7 +75,7 @@ section {
 
 #signup header {
   padding-top: 50vh;
-  margin-top: -3rem;
+  margin-top: -2rem;
 }
 
 #signup > p {
@@ -64,7 +83,13 @@ section {
   padding: 0;
 }
 
-#mission {}
+#mission {
+  background-color: #8C938C;
+}
+
+#mission > p, #mission > header {
+  background-color: #BAB8B1;
+}
 
 ul {
   list-style: none;
@@ -76,14 +101,21 @@ li {
   padding: 0 5px;
 }
 
+#endorsements {
+}
+
+#endorsements li {
+  display: inline;
+}
+
 #team li {
+  font-size: 0.8rem;
   display: block;
   width: 20vw;
   outline: 2px solid grey; /* DEBUG */
 }
 
 #footer {
-  clear: both;
 }
 
 /* Color palette as hex codes */
