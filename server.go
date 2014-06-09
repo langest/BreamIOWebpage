@@ -112,11 +112,6 @@ func (ih IndexHandler) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 	log.Printf("Best language match: %v", lang)
 }
 
-func static(cwd, filename string) {
-	sh := newStaticHandler(filepath.Join(cwd, STATIC, filename))
-	http.Handle(fmt.Sprintf("/%s", filename), sh)
-}
-
 func die(msg string, err error) {
 	if err != nil {
 		log.Fatal(msg, err)
@@ -126,12 +121,18 @@ func die(msg string, err error) {
 func main() {
 	cwd, err := os.Getwd()
 	die("Getwd:", err)
+	ls, err := ioutil.ReadDir(filepath.Join(cwd, STATIC))
+	die("ReadDir:", err)
 
 	http.Handle("/", newIndexHandler(cwd))
-	static(cwd, "style.css")
-	static(cwd, "favicon.ico")
+	for _, file := range ls {
+		if !file.IsDir() {
+			sh := newStaticHandler(filepath.Join(cwd, STATIC, filename))
+			http.Handle(fmt.Sprintf("/%s", filename), sh)
+			log.Printf("Registered handler for %s", file.Name())
+		}
+	}
 
-	path := filepath.Join(cwd, STATIC)
-	log.Printf("Listen on %d and serving files in %s", PORT, path)
+	log.Printf("Listen on %d", PORT)
 	die("ListenAndServe:", http.ListenAndServe(fmt.Sprintf(":%d", PORT), nil))
 }
