@@ -127,8 +127,8 @@ func main() {
 	http.Handle("/", newIndexHandler(cwd))
 	for _, file := range ls {
 		if !file.IsDir() {
-			sh := newStaticHandler(filepath.Join(cwd, STATIC, filename))
-			http.Handle(fmt.Sprintf("/%s", filename), sh)
+			sh := newStaticHandler(filepath.Join(cwd, STATIC, file.Name()))
+			http.Handle(fmt.Sprintf("/%s", file.Name()), sh)
 			log.Printf("Registered handler for %s", file.Name())
 		}
 	}
