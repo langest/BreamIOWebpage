@@ -1,0 +1,90 @@
+
+html, body {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #F0F0F0;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  width: 480px;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1.2rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
+}
+
+section {
+  padding-top: 1em;
+}
+
+button {
+  color: white;
+  background: #FF7F00;
+  border-radius: 24px;
+  display: inline;
+  font-size: 16px;
+  padding: 8px 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  outline: 0;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+button:hover {
+  background: radial-gradient(#FF9D3D 25%, #FF7F00 75%);
+}
+button:active {
+  background: radial-gradient(#FFC387 33%, #FF7F00 67%);
+}
+
+.logo{
+  width: 360px;
+  height: 1.5em;
+  padding-top: 3.0em;
+  font-family: lanenarrow;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center;
+  background: url(logo.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Color palette as hex codes */
+
+.color-primary-0 { color: #8C938C } /* Main Primary color */
+.color-primary-1 { color: #BFC2C0 }
+.color-primary-2 { color: #A4A8A4 }
+.color-primary-3 { color: #758076 }
+.color-primary-4 { color: #5F7060 }
+
+.color-secondary-1-0 { color: #BAB8B1 } /* Main Secondary color (1) */
+.color-secondary-1-1 { color: #F6F6F3 }
+.color-secondary-1-2 { color: #D6D5D0 }
+.color-secondary-1-3 { color: #A29F95 }
+.color-secondary-1-4 { color: #8E8979 }
+
+.color-secondary-2-0 { color: #7B797F } /* Main Secondary color (2) */
+.color-secondary-2-1 { color: #A6A6A8 }
+.color-secondary-2-2 { color: #8F8E92 }
+.color-secondary-2-3 { color: #69666F }
+.color-secondary-2-4 { color: #595461 }
