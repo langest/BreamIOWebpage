@@ -56,13 +56,15 @@ section {
   background-position: center top;
 }
 
-.fb-like{
+#social{
   display: inline;
+}
+
+.fb-like{
   bottom: 5px;
   padding-right: 4px;
 }
 .twitter-follow-button{
-  display: inline;
   padding-left: 4px;
 }
 
