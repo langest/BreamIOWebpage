@@ -58,6 +58,10 @@ section {
 
 .fb-like{
   bottom: 4px;
+  padding: 4px;
+}
+.twitter-follow-button{
+  padding: 4px;
 }
 
 /* Color palette as hex codes */
