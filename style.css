@@ -12,7 +12,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding: 2em;
-  width: 480px;
+  width: 400px;
   background-color: white;
   box-shadow: 0px 0px 5px black;
 }
@@ -28,30 +28,7 @@ header {
 }
 
 section {
-  padding-top: 1em;
-}
-
-button {
-  color: white;
-  background: #FF7F00;
-  border-radius: 24px;
-  display: inline;
-  font-size: 16px;
-  padding: 8px 32px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
-  outline: 0;
-  cursor: pointer;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-button:hover {
-  background: radial-gradient(#FF9D3D 25%, #FF7F00 75%);
-}
-button:active {
-  background: radial-gradient(#FFC387 33%, #FF7F00 67%);
+  text-align: center;
 }
 
 .logo{
