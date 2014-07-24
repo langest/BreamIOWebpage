@@ -13,23 +13,22 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<!-- Ugly Social Media Stuff -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-		<!-- /Ugly Social Media Stuff -->
+		<!-- Facebook JS inport -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!-- /Facebook JS inport -->
 		<main>
 			<header class="logo">Bream iO</header>
-			<header>Under Construction</header>
+			<header class="construction">Under Construction</header>
 			<section id="signup">
-				<p>Eye tracking for games</p>
 				<details>
-					<summary>Beta Signup</summary>
+					<summary>Beta Sign-up</summary>
 						<iframe src="https://docs.google.com/forms/d/1DMkywAehnUfeZ4MtJeIA-sWlJPYPBivWOfSEKbX7Afk/viewform?embedded=true" width="480" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				</details>
 			</section>
@@ -43,5 +42,8 @@
 				</label>
 			</section>
 		</main>
+		<!--[if lte IE 8]>
+			<p>Use ancient Internet Explorer at your own risk! Bream IO AB cannot be held responsible for any eye damage or wierd behavior of this page due to your seriously out-dated webbrowser!</p>
+		<![endif]-->
 	</body>
 </html>
