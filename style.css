@@ -58,7 +58,6 @@ button:active {
   width: 360px;
   padding-top: 1.5em;
   padding-bottom: 0.25em;
-  font-family: lanenarrow;
   font-size: 4em;
   font-weight: normal;
   text-align: center;
@@ -69,10 +68,9 @@ button:active {
 }
 
 .construction{
-  width: 256px;
-  padding-top: 234px;
-  font-family: lanenarrow;
-  font-size: 2em;
+  width: 128px;
+  padding-top: 116px;
+  font-size: 1.2em;
   font-weight: normal;
   text-align: center;
   background: url(construction.svg);
