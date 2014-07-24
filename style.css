@@ -57,10 +57,12 @@ section {
 }
 
 .fb-like{
+  display: inline;
   bottom: 5px;
   padding-right: 4px;
 }
 .twitter-follow-button{
+  display: inline;
   padding-left: 4px;
 }
 
