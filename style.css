@@ -56,6 +56,10 @@ section {
   background-position: center top;
 }
 
+.twitter-follow-button{
+  padding-top: 6px;
+}
+
 /* Color palette as hex codes */
 
 .color-primary-0 { color: #8C938C } /* Main Primary color */
