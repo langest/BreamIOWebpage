@@ -38,6 +38,7 @@ a.mail {
   display: inline;
   font-size: 12px;
   padding: 4px 24px;
+  bottom: 5px;
   text-transform: uppercase;
   text-decoration: none;
   outline: 0;
