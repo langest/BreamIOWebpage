@@ -37,8 +37,7 @@ a.mail {
   border-radius: 24px;
   display: inline;
   font-size: 12px;
-  padding: 4px 24px;
-  bottom: 8px;
+  padding: 4px 16px;
   text-transform: uppercase;
   text-decoration: none;
   outline: 0;
@@ -81,7 +80,7 @@ a.mail:active {
 }
 
 .fb-like{
-  bottom: 5px;
+  padding-left: 4px;
   padding-right: 4px;
 }
 .twitter-follow-button{
