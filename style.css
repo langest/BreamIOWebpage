@@ -31,6 +31,26 @@ header {
   font-size: 1.6rem;
 }
 
+a.mail {
+  color: white;
+  background: #FF7F00;
+  border-radius: 24px;
+  display: inline;
+  font-size: 12px;
+  padding: 4px 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+a.mail:hover {
+  background: radial-gradient(#FF9D3D 25%, #FF7F00 75%); 
+}
+a.mail:active {
+  background: radial-gradient(#FFC387 33%, #FF7F00 67%);
+}
+
 .logo{
   width: 360px;
   padding-top: 1.5em;
